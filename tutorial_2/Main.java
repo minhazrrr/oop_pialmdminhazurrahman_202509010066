@@ -8,7 +8,7 @@ public class Main {
         mycar.color="grey";
         mycar.speed=100;
 
-        System.out.println(mycar.color);
+        //System.out.println(mycar.color);
         //mycar.displayInfo();
         //System.out.println(mycar.brand);
     }
