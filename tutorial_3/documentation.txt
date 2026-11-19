@@ -1,0 +1,8 @@
+2.1. Why are the variables declared as private?
+Declaring fields as private enforces encapsulation, hiding internal state from direct access outside the Student class so external code cannot accidentally or maliciously corrupt data.
+
+2.2. What happens if the variables are declared public?
+Any external class could read or overwrite studentID, name, cgpa, or programme directly (for example, setting an invalid CGPA or blank ID) without any validation or control.
+
+2.3. Why do we use getters and setters?
+Getters provide controlled read access to private fields, while setters provide controlled write access—allowing you to add validation rules, logging, or formatting logic later without breaking code that uses the class.
